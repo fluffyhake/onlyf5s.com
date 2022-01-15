@@ -2,3 +2,6 @@ To add:
 
 minigame where you balance load between servers
   -with you being the F5
+
+
+config generator for publications, pools, healthmonitors and policies.
