@@ -5,19 +5,36 @@ var counter=0;
 document.addEventListener('keydown', function(event) {
     if(event.key == '1') {
 //        alert('One was pressed');
-        jump();
+//        jump();
+        if (typeof selectednode !== 'undefined') {
+            selectednode.style = "border: none;" 
+        }
+        node1.style = "border: 10px solid black;"
+        selectednode = node1  
+
     }
     else if(event.key == '2') {
 //       alert('Two was pressed');
-        jump();
+//        jump();
+        if (typeof selectednode !== 'undefined') {
+            selectednode.style = "border: none;" 
+        }
+        node2.style = "border: 10px solid black;"
+        selectednode = node2   
     }
     else if(event.key == '3') {
-//        alert('Three was pressed');
-        jump();
+        if (typeof selectednode !== 'undefined') {
+            selectednode.style = "border: none;" 
+        }  
+        node3.style = "border: 10px solid black;"
+        selectednode = node3
     }
     else if(event.key == '4') {
-//        alert('Four was pressed');
-        jump();
+        if (typeof selectednode !== 'undefined') {
+            selectednode.style = "border: none;" 
+        }
+        node4.style = "border: 10px solid black;"
+        selectednode = node4
     }
 });
 

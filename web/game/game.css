@@ -68,7 +68,13 @@ p{
     font-size: x-large;
     color: white;
 }
-
+#packet{
+    height: 100px;
+    width: 100px;
+    /* background-color: var(--alabaster); */
+    top: 0px;
+    position:absolute;
+}
 
 #client1{
     width: 175px;
