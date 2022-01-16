@@ -1,0 +1,146 @@
+ /* COLORS!! */
+:root {
+    --terra-cotta: #ff958a;
+    --pale-spring-bud: #f3eed9;
+    --opal: #7cadf3;
+    --cadet-blue: hsla(184, 31%, 51%, 1);
+    --alabaster: hsla(87, 22%, 90%, 1);
+    /* Big-IP Color source
+    https://www.f5.com/content/dam/f5/corp/global/pdf/f5/F5-Creative-Standards-01-2018.pdf
+    */
+    --big-ip: #E4002B;
+
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+#Title{
+    text-align: center;
+}
+.game{
+    width: 1000px;
+    height: 800px;
+    border: 1px solid black;
+    margin: auto;
+    position: relative;
+}
+/* #character{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position:relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 1000ms infinite linear;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+} */
+p{
+    text-align: center;
+}
+
+#clienttext{
+    
+    font-size: x-large;
+    color: white;
+}
+
+
+#client1{
+    width: 175px;
+    height: 150px;
+    background-color: var(--terra-cotta);
+    position:absolute;
+    top: 30px;
+    left: 100px;
+
+    
+}
+
+#client2{
+    width: 175px;
+    height: 150px;
+    background-color: var(--terra-cotta);
+    position:absolute;
+    top: 30px;
+    right: 100px;
+}
+
+#f5{
+    width: 175px;
+    height: 150px;
+    background-color: var(--big-ip);
+    left: 50%; 
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    position: absolute;
+}
+
+#nodetext{
+    font-size: x-large;
+    color: white;
+}
+
+#node1{
+    width: 100px;
+    height: 150px;
+    background-color: var(--opal);
+    position:absolute;
+    bottom: 30px;
+    left: 125px;
+    transform: translate(-50%, 0%); 
+}
+
+#node2{
+    width: 100px;
+    height: 150px;
+    background-color: var(--opal);
+    position:absolute;
+    bottom: 30px;
+    left: 375px;
+    transform: translate(-50%, 0%); 
+}
+
+#node3{
+    width: 100px;
+    height: 150px;
+    background-color: var(--opal);
+    position:absolute;
+    bottom: 30px;
+    left: 625px;
+    transform: translate(-50%, 0%); 
+}
+
+#node4{
+    width: 100px;
+    height: 150px;
+    background-color: var(--opal);
+    position:absolute;
+    bottom: 30px;
+    left: 875px;
+    transform: translate(-50%, 0%); 
+}
